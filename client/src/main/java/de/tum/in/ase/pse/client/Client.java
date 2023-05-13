@@ -16,7 +16,7 @@ public class Client {
 
     // TODO 2 Forward the call to the right service
     public String trainApprentices() {
-        return restTemplate.getForObject(MASTER_YODA_SERVICE_URL + TRAIN_APPRENTICES_URL, String.class);
+        return restTemplate.getForObject(OBI_WAN_KENOBI_SERVICE_URL + TRAIN_APPRENTICES_URL, String.class);
     }
 
     public String findApprentices() {
